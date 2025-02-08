@@ -20,5 +20,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+    }
+
+    public void ram(){
+        System.out.println("Ganesh Shelke");
     }
 }
